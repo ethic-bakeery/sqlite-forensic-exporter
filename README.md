@@ -1,16 +1,16 @@
-# SQLite Forensic Exporter 🔍📊
+## SQLite Forensic Exporter
 
 A professional, cross-platform Python tool for extracting and exporting data from SQLite databases with forensic analysis capabilities. Perfect for digital forensics, data analysis, and application data examination.
 
 ## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Multi-Source Export**: Export single databases or entire folders of SQLite files
 - **Recursive Scanning**: Process nested directory structures with `--recursive` flag
 - **Smart Table Detection**: Automatically discover and export all tables from any SQLite database
 - **Cross-Platform**: Works seamlessly on Windows, Linux, and macOS
 
-### 🔬 Forensic Enhancements
+### Forensic Enhancements
 - **Timestamp Conversion**: Automatic detection and conversion of common timestamp formats:
   - **Webkit Epoch** (Chrome timestamps)
   - **Unix Epoch** (standard timestamps)
@@ -18,7 +18,7 @@ A professional, cross-platform Python tool for extracting and exporting data fro
 - **Locked Database Handling**: Automatically creates temporary copies of locked databases
 - **Memory-Efficient Streaming**: Processes large tables in chunks to handle massive databases
 
-### 📊 Export Flexibility
+### Export Flexibility
 - **Selective Table Export**: Export specific tables with `--tables` parameter
 - **Preview Mode**: Limit rows with `--limit` for quick data sampling
 - **Custom Output Directories**: Specify output location with `--output`
@@ -99,7 +99,7 @@ python sqlite_exporter.py --help
 
 ### File Naming Convention
 ```
-📁 sqlite_exports/
+ sqlite_exports/
 ├── database1_table1.csv
 ├── database1_table2.csv
 ├── database2_table1.csv
@@ -117,20 +117,20 @@ python sqlite_exporter.py --help
 
 This tool works with SQLite databases from various sources:
 
-### 🌐 Web Browsers
+### Web Browsers
 - Google Chrome/Chromium
 - Mozilla Firefox
 - Microsoft Edge
 - Safari
 
-### 📱 Mobile Applications
+### Mobile Applications
 - Android apps
 - iOS apps
 - WhatsApp
 - Signal
 - Telegram
 
-### 💻 System & Applications
+### System & Applications
 - Windows system databases
 - macOS application data
 - Various software configurations
@@ -156,17 +156,17 @@ Automatically detects and converts multiple timestamp formats:
 
 ## Use Cases
 
-### 🕵️ Digital Forensics
+### Digital Forensics
 - Extract browser history and cookies
 - Analyze application usage patterns
 - Recover deleted data from SQLite databases
 
-### 🔍 Data Analysis
+### Data Analysis
 - Export application data for analysis
 - Convert SQLite data to CSV for tools like Excel, Pandas
 - Batch process multiple databases
 
-### 🛠️ Development & Testing
+### Development & Testing
 - Quick database inspection
 - Data migration and backup
 - Testing database contents
